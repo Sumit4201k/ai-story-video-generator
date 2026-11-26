@@ -117,3 +117,12 @@ sessions/<SESSION_ID>/
   final_output.mp4
   final_output_subtitled.mp4
 ```
+
+---
+
+## Docker Quickstart
+
+```bash
+docker build -t ai-story-video-generator .
+docker run --env-file .env -p 8000:8000 ai-story-video-generator
+```
